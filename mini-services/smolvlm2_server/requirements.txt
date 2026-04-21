@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+pillow
+torch
+transformers>=5.5.4
+num2words

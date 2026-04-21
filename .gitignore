@@ -30,8 +30,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (keep .env.example in git)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -50,5 +51,17 @@ test
 prompt
 
 server.log
+# Training artifacts
+/training/runs/
+/training/datasets/
+
+# Local databases
+/db/*.db
+/prisma/db/*.db
+
+# Local model downloads
+/download/smolvlm2-model/
+/public/models/coco-ssd/
+
 # Skills directory
 /skills/
