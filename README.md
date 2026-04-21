@@ -31,7 +31,7 @@ NavAssist is an AI-powered navigation assistant for visually impaired users. It 
 7. Start the dev server:
    - npm run dev
 
-Open http://localhost:3000
+Open:
 
 ## Environment variables
 Offline mode (default):
