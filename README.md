@@ -31,7 +31,7 @@ NavAssist is an AI-powered navigation assistant for visually impaired users. It 
 7. Start the dev server:
    - npm run dev
 
-Open:
+Open:http://navi-assistant.vercel.app/
 
 ## Environment variables
 Offline mode (default):
